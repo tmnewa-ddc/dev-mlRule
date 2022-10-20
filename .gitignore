@@ -1,0 +1,7 @@
+__pycache__
+file/origin/*
+file/config/*
+file/input/*
+file/train/*
+!/**/*.eg
+!/**/.gitkeep
