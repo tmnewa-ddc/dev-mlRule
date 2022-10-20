@@ -4,7 +4,7 @@ from typing import Optional
 
 @dataclass
 class DataMetaRule:
-    alg: int
+    alg: str
     org: dict[str, str]
     ref: Optional[dict[str, str]] = None
     org_x: Optional[dict[str, str]] = None
@@ -12,7 +12,7 @@ class DataMetaRule:
 
 
 # 稍微註解
-ALG_R1 = 0
+ALG_R1 = 'tree_1'
 
 # 稍微註解
 META_DEMO1 = DataMetaRule(
